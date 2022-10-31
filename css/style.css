@@ -1,49 +1,51 @@
 body {
-  background-color: rgb(210, 196, 196);
-}
-main {
   text-align: center;
 }
-main header {
-  font-size: 22px;
+body header {
+  /* border: 5px solid greenyellow; */
+  margin-bottom: 30px;
 }
-.main-div {
- 
-  width: 40%;
-  height: 200px;
+.clock-body {
+  /* border: 4px solid aquamarine; */
+  width: 53%;
+  height: 230px;
   margin: 0 auto;
+  padding: 10px;
+}
+.up {
+  background-color: blueviolet;
+  height: 40%;
+  font-size: 45px;
+  border-radius: 10px;
+}
+.up span {
+  padding: 15px;
+  margin-top: 60px;
+}
+.down {
+  /* background-color: darkblue; */
+  padding: 5px;
+  height: 55%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  font-size: 50px;
 }
-.hour-div {
-  width: 30%;
-  height: 150px;
-  background-color: green;
-  border-radius: 10px;
-}
-.hour-div p {
-  margin: 45px 0;
+.down p{
+  background-color: royalblue;
   color: white;
-}
-.munite-div {
-  background-color: lightseagreen;
-  width: 30%;
-  height: 150px;
+  height: 100%;
+  width: 27%;
+  margin: 0px;
+  font-size: 85px;
   border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px aqua;
 }
-.munite-div p{
-  margin: 45px 0;
+.down span{
+  background-color: tomato;
   color: black;
-}
-.second-div {
-  background-color: lightpink;
-  width: 30%;
-  height: 150px;
+  height: 50%;
+  width: 10%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 35px;
   border-radius: 10px;
-}
-.second-div{
-  margin: 45px 0;
-  color: black;
 }
