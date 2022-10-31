@@ -1,10 +1,26 @@
+/* full body  */
 body {
   text-align: center;
+  background-image: linear-gradient(
+    to right bottom,
+    #1d0537,
+    #6a0c4b,
+    #af2c48,
+    #de6733,
+    #ebad12
+  );
+  /* background-color: #100120; */
+  height: 100vh;
+  width: 100%;
+  color: rgb(209, 208, 208);
 }
+/* only header section  */
+
 body header {
-  /* border: 5px solid greenyellow; */
   margin-bottom: 30px;
 }
+
+/* total clock body desig  */
 .clock-body {
   /* border: 4px solid aquamarine; */
   width: 53%;
@@ -12,8 +28,18 @@ body header {
   margin: 0 auto;
   padding: 10px;
 }
+
+/* day month and year design  */
 .up {
-  background-color: blueviolet;
+  background-image: linear-gradient(
+    to left bottom,
+    #052637,
+    #133765,
+    #563f89,
+    #a43592,
+    #eb127d
+  );
+  color: white;
   height: 40%;
   font-size: 45px;
   border-radius: 10px;
@@ -22,6 +48,8 @@ body header {
   padding: 15px;
   margin-top: 60px;
 }
+
+/* hour minutes and second design here  */
 .down {
   /* background-color: darkblue; */
   padding: 5px;
@@ -29,18 +57,32 @@ body header {
   display: flex;
   justify-content: space-around;
 }
-.down p{
-  background-color: royalblue;
+.down p {
+  background-image: linear-gradient(
+    to left bottom,
+    #05749e,
+    #3771b9,
+    #7d63c1,
+    #bd47ad,
+    #eb127d
+  );
   color: white;
   height: 100%;
   width: 27%;
   margin: 0px;
   font-size: 85px;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px 3px aqua;
+  /* box-shadow: 2px 2px 2px 2px white; */
 }
-.down span{
-  background-color: tomato;
+.down span {
+  background-image: linear-gradient(
+    to left bottom,
+    #e9ca0b,
+    #ced300,
+    #abdc00,
+    #7de400,
+    #1ceb12
+  );
   color: black;
   height: 50%;
   width: 10%;
